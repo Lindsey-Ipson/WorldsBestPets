@@ -19,9 +19,9 @@ h1 {
 }
 
 nav {
-    /*background-image: url(images/pawPrints.jpg);
-    background-repeat: repeat round;*/
-    background-color: rgba(0, 0, 0, 0.568);
+    background-image: url(https://user-images.githubusercontent.com/98855954/160487948-3853db7b-ccab-443d-a765-b6ed8dfc7dd6.jpg);
+    background-repeat: repeat round;
+    /*background-color: rgba(0, 0, 0, 0.568);*/
     height: 50px;
     width: auto;
 }
@@ -45,9 +45,9 @@ li a {
     padding: 4px 4px;
     margin: 6px;
     text-decoration: underline;
-   /* border-radius: 10px;
+   border-radius: 10px;
     opacity: 7;
-    text-shadow: 1px 1px #000000;*/
+    text-shadow: 1px 1px #000000;
 }
 
 li a:hover {

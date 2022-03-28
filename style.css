@@ -1,0 +1,230 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+    color: white;
+}
+
+html {
+    font-size: 12;
+}
+
+body {
+    background-color: rgba(7, 32, 80, 0.945);
+    /*color:  black; */
+}
+
+h1 {
+    text-align: center;
+}
+
+nav {
+    /*background-image: url(images/pawPrints.jpg);
+    background-repeat: repeat round;*/
+    background-color: rgba(0, 0, 0, 0.568);
+    height: 50px;
+    width: auto;
+}
+
+ul {
+    text-align: right;
+}
+
+li {
+    list-style-type: none;
+    
+}
+
+li a {
+    justify-items: space-between;
+    float: right;
+    display: block;
+    color: rgb(255, 255, 255);
+    background-color: rgba(0, 0, 0, 0.2);
+    text-align: center;
+    padding: 4px 4px;
+    margin: 6px;
+    text-decoration: underline;
+   /* border-radius: 10px;
+    opacity: 7;
+    text-shadow: 1px 1px #000000;*/
+}
+
+li a:hover {
+    text-decoration: none;
+}
+
+li a:active {
+    color: darkgray;
+}
+
+.banner {
+    text-align: center;
+    /*background-image: url(images/Paws.jpg);
+    background-size: auto 100%;*/
+  
+}
+
+#pets h2 {
+    text-align: center;
+}
+
+.meetPets {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#pets {
+    background-color: rgba(57, 107, 201, 0.233);
+    padding: 25px;
+    
+}
+
+.pet {
+    display: inline-flex;
+    vertical-align: top;
+    text-align: center;
+    padding: 50px;
+    align-content: center;
+    margin: auto;
+   justify-content: center;
+}
+
+.pet img {
+   margin: auto;
+    max-width: 300px;
+    min-width: 180px;
+   flex-shrink: 1;
+}
+
+.petText {
+    max-width: 300px;
+    margin: auto 30px;
+}
+
+#month {
+    text-align: center;
+    margin: 50px auto;
+    max-width: 700px;
+}
+
+#vote {
+    margin: 50px auto;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.568);
+    padding: 30px;
+}
+
+#photos {
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.568);
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+
+#photos img {
+    max-width: 300px;
+}
+
+#month img {
+    max-width: 500px;
+    /*min-width: 150px;*/
+    flex-shrink: 1;
+}
+
+#month {
+    margin-top: 20px;
+}
+
+#month span {
+    font-size: 1.3em;
+}
+
+button {
+    color: #000000;
+    padding: 8px 12px;
+}
+
+button:hover {
+    color: gray;
+}
+
+@media only screen and (max-width: 620px) {
+    .pet {
+        display: block;
+    }
+}
+
+/*
+.morita .petText {
+    display: inline-block;
+}
+
+
+/*
+.meetPets p, .meetPets h3 {
+    text-align: center;
+
+}
+
+
+.meetPets img {
+    width: 40%;
+    max-width: 300px;
+    height: auto;
+    align-content: center;
+}
+
+.meetPets p {
+    
+}
+
+.petText {
+    float: right;
+    max-width: 500px;
+    display: inline-block;
+    flex-shrink: 1;
+}
+
+
+
+/*
+.meetPets {
+    text-align: center;
+    display: flex;
+    align-self: flex-start;
+    justify-content: flex-start;
+}
+
+#pets h2 {
+}
+
+.meetPets img {
+    width: 30%;
+    float: left;
+    clear: left;
+}
+
+.meetPets p {
+    float: right;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

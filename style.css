@@ -52,6 +52,7 @@ li a {
 
 li a:hover {
     text-decoration: none;
+    cursor: pointer;
 }
 
 li a:active {
@@ -147,6 +148,7 @@ button {
 
 button:hover {
     color: gray;
+    cursor: pointer;
 }
 
 @media only screen and (max-width: 620px) {

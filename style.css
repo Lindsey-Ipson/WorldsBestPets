@@ -24,6 +24,10 @@ nav {
     /*background-color: rgba(0, 0, 0, 0.568);*/
     height: 50px;
     width: auto;
+    position: sticky;
+    z-index: 1;
+    display: block;
+    top: 0;
 }
 
 ul {

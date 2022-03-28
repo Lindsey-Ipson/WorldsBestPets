@@ -155,65 +155,6 @@ button:hover {
     }
 }
 
-/*
-.morita .petText {
-    display: inline-block;
-}
-
-
-/*
-.meetPets p, .meetPets h3 {
-    text-align: center;
-
-}
-
-
-.meetPets img {
-    width: 40%;
-    max-width: 300px;
-    height: auto;
-    align-content: center;
-}
-
-.meetPets p {
-    
-}
-
-.petText {
-    float: right;
-    max-width: 500px;
-    display: inline-block;
-    flex-shrink: 1;
-}
-
-
-
-/*
-.meetPets {
-    text-align: center;
-    display: flex;
-    align-self: flex-start;
-    justify-content: flex-start;
-}
-
-#pets h2 {
-}
-
-.meetPets img {
-    width: 30%;
-    float: left;
-    clear: left;
-}
-
-.meetPets p {
-    float: right;
-}
-
-
-
-
-
-
 
 
 
